@@ -15,3 +15,37 @@ It is based on the AMASS dataset and SMPL body model.
 ## Setup
 
 1. **Clone the repo:**
+git clone https://github.com/your-username/human-pose-forecasting.git
+cd human-pose-forecasting
+
+2. **Create and activate a virtual environment:**
+python3 -m venv pose_env
+source pose_env/bin/activate
+
+3. **Install requirements:**
+pip install -r requirements.txt
+
+
+4. **Download and place the AMASS dataset and VPoser model in the correct folders.**
+
+## Usage
+
+Run hyperparameter tuning:
+nohup ./run_tuning.sh > script_output.log 2>&1 &
+
+All logs and output will be saved in `tuning_results/`.
+
+## Results
+
+- Best hyperparameters and model checkpoints are saved in `tuning_results/`.
+- Training and validation loss curves, Optuna study plots, and parameter importances are also saved.
+
+## License
+
+[MIT](LICENSE) (or your license of choice)
+
+## Acknowledgements
+
+- [AMASS Dataset](https://amass.is.tue.mpg.de/)
+- [SMPL Model](https://smpl.is.tue.mpg.de/)
+- [VPoser](https://smpl-x.is.tue.mpg.de/)
