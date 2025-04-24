@@ -15,7 +15,7 @@ It is based on the AMASS dataset and SMPL body model.
 ## Setup
 
 1. **Clone the repo:**
-git clone https://github.com/your-username/human-pose-forecasting.git
+https://github.com/venkataseshtej/human-pose-forecasting
 cd human-pose-forecasting
 
 2. **Create and activate a virtual environment:**
