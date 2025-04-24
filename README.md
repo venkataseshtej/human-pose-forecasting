@@ -16,6 +16,7 @@ It is based on the AMASS dataset and SMPL body model.
 
 1. **Clone the repo:**
 https://github.com/venkataseshtej/human-pose-forecasting
+
 cd human-pose-forecasting
 
 2. **Create and activate a virtual environment:**
@@ -42,7 +43,7 @@ All logs and output will be saved in `tuning_results/`.
 
 ## License
 
-[MIT](LICENSE) (or your license of choice)
+[MIT](LICENSE) 
 
 ## Acknowledgements
 
